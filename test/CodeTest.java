@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import java.util.Random;
 
+import static org.hamcrest.CoreMatchers.*;
 import static org.mockito.Mockito.*;
 
 /**
@@ -30,8 +31,11 @@ public class CodeTest {
     @Test
     public void testVerifierCode() throws Exception {
         c = new Code(r);
-        Assert.assertTrue("Le code devrait se vérifier", c.verifierCode("0000"));
+        //Pour le grand fun, woohoo
+        Assert.assertThat("the secret code is 0000", c.verifierCode("0000"), is(true));
         Assert.assertFalse("Le code ne devrait pas se vérifier", c.verifierCode("FAUX"));
+        Assert.assertFalse("Le code ne devrait toujours pas se vérifier", c.verifierCode("9999"));
+
     }
 
     @Test

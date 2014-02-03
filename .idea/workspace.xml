@@ -2,34 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a857c7-c110-4c53-b4f3-06a2dd688984" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Code.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/CodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExcessiveCreditException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExcessiveDebitException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExcessiveSoldeCreationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InvalidSecretCodeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NegativePurseCreationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Purse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/PurseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TooManyOperationsException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/purse.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PurseBloqueException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Code.java" afterPath="$PROJECT_DIR$/src/Code.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CodeTest.java" afterPath="$PROJECT_DIR$/test/CodeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Purse.java" afterPath="$PROJECT_DIR$/src/Purse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/PurseTest.java" afterPath="$PROJECT_DIR$/test/PurseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="purse.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391370892189" ignored="false" />
-    <file path="/PurseTest.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391371675937" ignored="false" />
-    <file path="/Dummy.txt" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391372580731" ignored="false" />
-    <file path="/Purse.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391371279750" ignored="false" />
+    <file path="/PurseTest.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391424373408" ignored="false" />
+    <file path="/Dummy.txt" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391420406956" ignored="false" />
+    <file path="/Purse.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391424996024" ignored="false" />
     <file path="/a.dummy" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391355933783" ignored="false" />
     <file path="/NegativePurseCreationException.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391357397128" ignored="false" />
     <file path="/InvalidSecretCodeException.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391357362447" ignored="false" />
@@ -38,8 +23,9 @@
     <file path="/ExcessiveCreditException.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391358763835" ignored="false" />
     <file path="/TooManyOperationsException.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391359292102" ignored="false" />
     <file path="/IllegalCodeLength.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391359996904" ignored="false" />
-    <file path="/Code.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391371798957" ignored="false" />
-    <file path="/CodeTest.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391372225661" ignored="false" />
+    <file path="/Code.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391424817791" ignored="false" />
+    <file path="/CodeTest.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391421880466" ignored="false" />
+    <file path="/PurseBloqueException.java" changelist="36a857c7-c110-4c53-b4f3-06a2dd688984" time="1391424437077" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +40,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -91,6 +76,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -99,13 +85,13 @@
     <favorites_list name="purse" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4952199">
       <split-first>
         <leaf>
-          <file leaf-file-name="Code.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Code.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Code.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="22" selection-start="551" selection-end="551" vertical-scroll-proportion="0.39060205">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -114,7 +100,7 @@
           <file leaf-file-name="Purse.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Purse.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="66" column="34" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
+                <state line="40" column="44" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -124,10 +110,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="PurseTest.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="PurseTest.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/PurseTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.29341316">
+                <state line="51" column="30" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-0.17721519">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -138,7 +124,7 @@
           <file leaf-file-name="CodeTest.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/CodeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="86" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.0">
+                <state line="22" column="27" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -173,18 +159,19 @@
         <option value="$PROJECT_DIR$/src/ExcessiveCreditException.java" />
         <option value="$PROJECT_DIR$/src/TooManyOperationsException.java" />
         <option value="$PROJECT_DIR$/src/IllegalCodeLength.java" />
-        <option value="$PROJECT_DIR$/src/Purse.java" />
         <option value="$PROJECT_DIR$/test/CodeTest.java" />
-        <option value="$PROJECT_DIR$/src/Code.java" />
+        <option value="$PROJECT_DIR$/src/PurseBloqueException.java" />
         <option value="$PROJECT_DIR$/test/PurseTest.java" />
+        <option value="$PROJECT_DIR$/src/Purse.java" />
+        <option value="$PROJECT_DIR$/src/Code.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="3" />
-    <option name="y" value="18" />
-    <option name="width" value="1914" />
-    <option name="height" value="1059" />
+    <option name="y" value="17" />
+    <option name="width" value="1274" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -214,6 +201,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,6 +213,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="purse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -280,8 +287,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +296,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/usr/share/java" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -311,18 +316,25 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in purse">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -351,19 +363,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -467,34 +466,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="18" width="1914" height="1059" extended-state="0" />
-    <editor active="false" />
+    <frame x="3" y="17" width="1274" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14882226" sideWeight="0.7531915" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24680851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14820847" sideWeight="0.952959" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22003035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -563,6 +562,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Purse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="34" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PurseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="86" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NegativePurseCreationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="41" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
@@ -605,35 +636,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Purse.java">
+    <entry file="file://$PROJECT_DIR$/src/PurseBloqueException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="34" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Code.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="551" selection-end="551" vertical-scroll-proportion="0.39060205">
+        <state line="9" column="59" selection-start="306" selection-end="306" vertical-scroll-proportion="0.26751593">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="86" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.0">
+        <state line="22" column="27" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Purse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="44" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/PurseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.29341316">
+        <state line="51" column="30" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-0.17721519">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -695,6 +733,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

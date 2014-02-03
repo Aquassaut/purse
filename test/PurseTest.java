@@ -88,4 +88,22 @@ public class PurseTest {
         e.expect(TooManyOperationsException.class);
         p.debite(1, "0000");
     }
+
+    @Test
+    public void testPurseBloque() throws Exception {
+        p = new Purse(100, 200, 1, r);
+        try {
+            p.debite(1, "9999");
+        } catch (InvalidSecretCodeException ignore) {}
+        try {
+            p.debite(1, "9999");
+        } catch (InvalidSecretCodeException ignore) {}
+        try {
+            p.debite(1, "9999");
+        } catch (InvalidSecretCodeException ignore) {}
+
+        e.expect(PurseBloqueException.class);
+        p.credite(1);
+
+    }
 }

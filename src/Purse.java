@@ -32,9 +32,13 @@ public class Purse {
         _nbOps = nbOps;
     }
 
-    private void mouvement(double amount) throws TooManyOperationsException{
+    private void mouvement(double amount)
+            throws TooManyOperationsException, PurseBloqueException {
         if (_nbOps == 0) {
             throw new TooManyOperationsException();
+        }
+        if (_code.isBloque()) {
+            throw new PurseBloqueException();
         }
         _solde += amount;
         _nbOps -= 1;
@@ -42,7 +46,8 @@ public class Purse {
 
 
     public void debite(double amount, String code)
-            throws InvalidSecretCodeException, ExcessiveDebitException, TooManyOperationsException {
+            throws InvalidSecretCodeException, ExcessiveDebitException,
+            TooManyOperationsException, PurseBloqueException {
         if (! _code.verifierCode(code)) {
             throw new InvalidSecretCodeException();
         }
@@ -52,7 +57,8 @@ public class Purse {
         mouvement(-amount);
     }
 
-    public void credite(double amount) throws TooManyOperationsException {
+    public void credite(double amount)
+            throws TooManyOperationsException, PurseBloqueException {
         if (_solde + amount > _plafond) {
             throw new ExcessiveCreditException();
         }

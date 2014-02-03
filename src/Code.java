@@ -10,28 +10,31 @@ import java.util.Random;
 public class Code {
     private String _code;
     private int _tentatives;
-    public static String authorized = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private boolean _revele;
+    private boolean _bloque;
 
     public Code(Random r) {
-        char code[] = new char[4];
+        StringBuilder code = new StringBuilder(4);
         for (int i = 0; i < 4; i += 1) {
-            int randIndex = r.nextInt(authorized.length());
-            code[i] = authorized.charAt(randIndex);
+            code.append(r.nextInt(10));
         }
         _revele = false;
-        _code = new String(code);
+        _bloque = false;
+        _code = code.toString();
         _tentatives = 3;
     }
 
 
     public boolean verifierCode(String codeFourni) {
-        if (_tentatives == 0) {
+        if (_bloque) {
             return false;
         }
         boolean success = _code.equals(codeFourni);
         if (!success) {
             _tentatives -= 1;
+            if (_tentatives == 0) {
+                _bloque = true;
+            }
         } else {
             _tentatives = 3;
         }
@@ -46,7 +49,7 @@ public class Code {
         return "xxxx";
     }
 
-
-
-
+    public boolean isBloque() {
+        return _bloque;
+    }
 }
